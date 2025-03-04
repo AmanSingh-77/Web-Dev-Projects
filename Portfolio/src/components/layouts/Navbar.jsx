@@ -4,7 +4,8 @@ export default function Navbar(){
     return(
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-            
+
+                {/* Home icon */}
                 <div className="row">
                     <div className="col">
                         <Link className="navbar-brand nav-link" aria-current="page" to={'/'}>
@@ -13,6 +14,7 @@ export default function Navbar(){
                     </div>
                 </div>
                 
+                {/* Toggle button */}
                 <button
                 className="navbar-toggler"
                 type="button"
@@ -26,6 +28,7 @@ export default function Navbar(){
                 <i className="icon-1 bi bi-list"></i>
                 </button>
 
+                {/* Items list */}
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-0">
                     
@@ -62,14 +65,7 @@ export default function Navbar(){
                                 Another action
                             </a>
                             </li>
-                            <li>
-                            <hr className="dropdown-divider" />
-                            </li>
-                            <li>
-                            <a className="dropdown-item" href="#">
-                                Something else here
-                            </a>
-                            </li>
+                            
                         </ul>
                         </li>
                 

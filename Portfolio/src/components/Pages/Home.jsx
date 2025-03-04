@@ -3,20 +3,23 @@ export default function Home(){
 
         <>
             <div className="main container-fluid ps-lg-5">
-
+                
                 <div className="row">
                     <div className="col-12 d-flex flex-column mb-3">
+                       
+                        {/* Name */}
                         <div className="home-div row mb-4 pt-4 pt-lg-0">
                             <div className="col-lg-12 first_name">Amanpreet</div>
                             <div className="col-lg last_name">Singh</div>
                         </div>
-                
+
+                        {/* Sub-Heading */}
                         <div className="sub-head row">
                             <div className="col-lg desc">I build things for the web.</div>
                         </div>
 
-                        <div className="row social-icons-row mt-lg-5 mt-4">
-                            
+                        {/* Row with social media icons */}
+                        <div className="row social-icons-row mt-lg-5 mt-4">     
                             <div className="col-lg-4 col-7 social-icons-col d-flex flex-row justify-content-between">
                             <a href="https://www.linkedin.com/in/amanpreet-singh-857b11221/" target="_blank">
                                 <i className="bi bi-linkedin social-icons l-one"></i>
@@ -33,12 +36,13 @@ export default function Home(){
                             <a href="https://x.com/AmanSingh423" target="_blank">
                                 <i className="bi bi-twitter-x social-icons r-two"></i>
                             </a>
-                            </div>
+                        </div>
 
                         </div>
 
                     </div>
                 </div>
+                
             </div>
         </>
     )

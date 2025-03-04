@@ -6,10 +6,7 @@
 
 }
 
-a:active{
-  color: green;
-}
-
+/* Home Page */
 
 .main{
   padding-top: 8vh;
@@ -42,9 +39,10 @@ a:active{
   color: var(--primary-color);
 }
 
-.profileImage{
-    border: 2px solid black;
-}
+
+
+
+/* Navbar */
 
 .navbar{
   background-color:transparent;
@@ -63,6 +61,7 @@ a:active{
   color: var(--primary-color);
   font-size: 1.8rem;
 }
+
 
 
 
@@ -91,8 +90,8 @@ a:active{
 }
 
 
-/* Tech Stack Page */
 
+/* Tech Stack Page */
 .stack-head{
   color: var(--primary-color);
   font-size: 3rem;
@@ -116,41 +115,13 @@ a:active{
   display: none;
 }
 
-/* .tab-1{
-  background-color: var(--secondary-color);
 
-}
-
-.tab-2{
-  background-color: var(--primary-color);
-
-}
-.tab-3{
-  background-color: var(--primary-color);
-}
-.tab-4{
-  background-color: var(--secondary-color);
-
-}
-.tab-5{
-  background-color: var(--secondary-color);
-
-}
-.tab-6{
-  background-color: var(--primary-color);
-
-}
-.tab-7{
-  background-color: var(--primary-color);
-
-}
-.tab-8{
-  background-color: var(--secondary-color);
-
-} */
+/* Media Query For Phone Screens */
 
 @media only screen and (max-width: 700px) {
+ 
   
+  /* Home Page */
   .main{
     padding-top: 1.5vh;
   }
@@ -177,4 +148,5 @@ a:active{
   .social-icons-row{
     justify-content: center;
   }
+
 }

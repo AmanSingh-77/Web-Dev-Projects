@@ -21,6 +21,7 @@ export default function TechStack(){
                     <span className="text-light fw-bold">REACT</span>
                 </button>
                 </div>
+
                 <div className="col-lg-3 py-3 px-3">
                 <button className="stack-tabs tab-3 rounded-5 w-100">
                     <img
@@ -32,6 +33,7 @@ export default function TechStack(){
                     <span className="text-light fw-bold">NODEjs</span>
                 </button>
                 </div>
+
                 <div className="col-lg-3 py-3 px-3">
                 <button className="stack-tabs tab-5 rounded-5 w-100">
                     <img
@@ -43,6 +45,7 @@ export default function TechStack(){
                     <span className="text-light fw-bold">JAVASCRIPT</span>
                 </button>
                 </div>
+
                 <div className="col-lg-3 py-3 px-3">
                 <button className="stack-tabs tab-7 rounded-5 w-100">
                     <img
@@ -55,6 +58,7 @@ export default function TechStack(){
                 </button>
                 </div>
             </div>
+
             {/* ROW - 2 with 4 skills */}
             <div className="row py-lg-3  px-lg-5">
                 <div className="col-lg-3 py-3 px-3">
@@ -68,6 +72,7 @@ export default function TechStack(){
                     <span className="text-light fw-bold">HTML</span>
                 </button>
                 </div>
+
                 <div className="col-lg-3 py-3 px-3">
                 <button className="stack-tabs tab-4 rounded-5 w-100">
                     <img
@@ -79,6 +84,7 @@ export default function TechStack(){
                     <span className="text-light fw-bold">C++</span>
                 </button>
                 </div>
+
                 <div className="col-lg-3 py-3 px-3">
                 <button className="stack-tabs tab-6 rounded-5 w-100">
                     <img
@@ -90,6 +96,7 @@ export default function TechStack(){
                     <span className="text-light fw-bold">MONGODB</span>
                 </button>
                 </div>
+                
                 <div className="col-lg-3 py-3 px-3">
                 <button className="stack-tabs tab-8 rounded-5 w-100">
                     <img
