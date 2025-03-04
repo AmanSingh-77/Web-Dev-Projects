@@ -1,12 +1,12 @@
 import './App.css'
-import Home from './components/Home'
+import Home from './components/Pages/Home'
 import React from 'react'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import About from './components/About';
-import TechStack from './components/TechStack';
-import Master from './components/Master';
+import About from './components/Pages/About';
+import TechStack from './components/Pages/TechStack';
+import Master from './components/layouts/Master';
 
 function App() {
 
