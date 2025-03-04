@@ -1,0 +1,180 @@
+*{
+  font-family: serif;
+  *::selection{
+    background-color: orchid;
+  }
+
+}
+
+a:active{
+  color: green;
+}
+
+
+.main{
+  padding-top: 8vh;
+}
+
+.home-div{
+  font-size: 9vw;
+  letter-spacing: -3px;
+  font-weight: bold;
+  text-align: start;
+  line-height: 1.1em;
+  color: var(--primary-color);
+}
+
+.sub-head{
+  text-align: start;
+  font-size: 3vw;
+  font-style: italic;
+
+  color: var(--secondary-color);
+}
+
+.social-icons-col a{
+  font-size: 3vw;
+  text-decoration: none;
+  color: var(--icons-color);
+}
+
+.social-icons-col a:hover{
+  color: var(--primary-color);
+}
+
+.profileImage{
+    border: 2px solid black;
+}
+
+.navbar{
+  background-color:transparent;
+  box-shadow: 0 0 5px rgb(146, 146, 145);
+}
+
+.navbar a{
+  color: var(--primary-color);
+}
+
+.navbar a:hover{
+  color: var(--shadows-color);
+}
+
+.icon-1{
+  color: var(--primary-color);
+  font-size: 1.8rem;
+}
+
+
+
+/* About Page */
+
+.about-head{
+  color: var(--primary-color);
+}
+
+.about-box{
+  box-shadow: 0 0 1vh var(--shadows-color);
+  color: var(--secondary-color);
+}
+
+.about-icons{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.about-icons:hover{
+  color: var(--primary-color);
+}
+
+.about-head{
+  font-size: 3rem;
+}
+
+
+/* Tech Stack Page */
+
+.stack-head{
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+.stack-tabs{
+  height: 23vh;
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+.stack-tabs:hover{
+  box-shadow: 0 0 3vh var(--shadows-color);
+}
+
+.stack-tabs:hover span{
+  display: block;
+}
+
+.stack-tabs span{
+  display: none;
+}
+
+/* .tab-1{
+  background-color: var(--secondary-color);
+
+}
+
+.tab-2{
+  background-color: var(--primary-color);
+
+}
+.tab-3{
+  background-color: var(--primary-color);
+}
+.tab-4{
+  background-color: var(--secondary-color);
+
+}
+.tab-5{
+  background-color: var(--secondary-color);
+
+}
+.tab-6{
+  background-color: var(--primary-color);
+
+}
+.tab-7{
+  background-color: var(--primary-color);
+
+}
+.tab-8{
+  background-color: var(--secondary-color);
+
+} */
+
+@media only screen and (max-width: 700px) {
+  
+  .main{
+    padding-top: 1.5vh;
+  }
+  
+  .home-div{
+    font-size: 16.5vw;
+    
+    text-align: center;
+    
+  }
+
+  .sub-head{
+    font-size: 7vw;
+    text-align: center;
+    margin-bottom: 1vh;
+  }
+
+  .social-icons-col a{
+    font-size: 6vw;
+    padding-right: 4vh;
+    padding-top: 1vh;
+  }
+
+  .social-icons-row{
+    justify-content: center;
+  }
+}
